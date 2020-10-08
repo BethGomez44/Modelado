@@ -1,0 +1,107 @@
+Estado, Ciudad,Aeropuerto,Codigo IATA
+Aguascalientes,Aguascalientes,Aeropuerto Internacional de Aguascalientes,AGU
+Baja California,Isla Cedros,Aeropuerto Nacional de Isla de Cedros,CDI
+Baja California,Ensenada,Aeropuerto Internacional de Ensenada,ESE
+Baja California,Ensenada,Base Aérea No. 3 El Ciprés,ESE
+Baja California,Mexicali,Aeropuerto Internacional de Mexicali,MXL
+Baja California,San Felipe,Aeropuerto Internacional de San Felipe,SFH
+Baja California,Tijuana,Aeropuerto Internacional de Tijuana,TIJ
+Baja California Sur,Cabo San Lucas,Aeródromo Internacional de Cabo San Lucas,CSL
+Baja California Sur, Ciudad Constitución,Aeropuerto Nacional de  Ciudad Constitución,CUA
+Baja California Sur,Guerrero Negro,Aeropuerto Nacional de Guerrero Negro,GUB
+Baja California Sur,La Paz,Aeropuerto Internacional de La Paz,LAP
+Baja California Sur,Loreto,Aeropuerto Internacional de Loreto,LTO
+Baja California Sur,Mulegé,Aeródromo de Mulegé,MUG
+Baja California Sur,Santa Rosalía,Aeropuerto Nacional Palo Verde,PVP
+Baja California Sur,Los Cabos,Aeropuerto Internacional de Los Cabos,SJD
+Campeche, Ciudad Del Carmen,Aeropuerto Internacional de  Ciudad del Carmen,CME
+Campeche,Campeche,eropuerto Internacional de Campeche,CPE
+Chiapas,Comitán,Aeropuerto Nacional de Comitán,CJT
+Chiapas,Pijijiapan,Aeropuerto Nacional Armando Duvalier,PJP
+Chiapas,Palenque,Aeropuerto Internacional de Palenque,PQM
+Chiapas,San Cristobal de las Casas,Aeropuerto de San Cristóbal de las Casas,SZT
+Chiapas,Tapachula,Aeropuerto Nacional Ingeniero Juan Guillermo Villasana,TAP
+Chiapas,Tuxtla Gutiérrez,Base Aérea No. 6 Terán,TGM
+Chiapas,Tuxtla Gutiérrez,Aeropuerto Internacional de Tuxtla Gutiérrez,TGZ
+Chihuahua, Ciudad Juárez,Aeropuerto Internacional de  Ciudad Juárez,CJS
+Chihuahua,Chihuahua,Aeropuerto Internacional de Chihuahua,CUU
+Chihuahua,Nuevo Casas Grandes,Aeropuerto Nacional de Nuevo Casas Grandes,NCG
+Coahuila, Ciudad Acuña,Aeropuerto Internacional de  Ciudad Acuña,ACN
+Coahuila,Frontera,Aeropuerto Internacional Venustiano Carranza,LOV
+Coahuila,Piedras Negras,Aeropuerto Internacional de Piedras Negras,PDS
+Coahuila,Saltillo,Aeropuerto Internacional Plan de Guadalupe,SLW
+Coahuila,Torreón,Aeropuerto Internacional de Torreón,TRC
+Colima,Colima,Aeropuerto Nacional de Colima,CLQ
+Colima,Manzanillo,Aeropuerto Internacional Playa de Oro,ZLO
+Colima,Manzanillo,Aeropuerto Internacional de Manzanillo,ZLO
+ Ciudad de México, Ciudad De México,Aeropuerto Internacional de la  Ciudad de México,MEX
+Durango,Durango,Aeropuerto Internacional de Durango,DGO
+Estado de México,Toluca,Aeropuerto Internacional de Toluca,TLC
+Guanajuato,León,Aeropuerto Internacional de Guanajuato,BJX
+Guanajuato,Celaya,Aeropuerto Nacional Capitán Rogelio Castillo,CYW
+Guerrero,Acapulco,Aeropuerto Internacional de Acapulco,ACA
+Guerrero,Acapulco,Base Aérea No. 7 León González Pie de la Cuesta,PIE
+Guerrero,Ixtapa Zihuatanejo,Aeropuerto Internacional de Ixtapa Zihuatanejo,ZIH
+Hidalgo,Pachuca,Aeropuerto Internacional de Pachuca,PCA
+Jalisco,Guadalajara,Aeropuerto Internacional de Guadalajara,GDL
+Jalisco,Lagos de Moreno,Aeropuerto Nacional Francisco Primo de Verdad,LOM
+Jalisco,Puerto Vallarta,Aeropuerto Internacional de Puerto Vallarta,PVR
+Jalisco,Tuxpan,Aeropuerto Nacional de Zapotiltic,TUX
+Jalisco,Zapopan,Base Aérea No. 5 Zapopan,ZAP
+México,Atizapán,Aeropuerto Nacional Jorge Jiménez Cantú,JJC
+México,Zumpango,Base Aérea No. 1 Santa Lucía,SLM
+Michoacán,Apatzingán,Aeropuerto Nacional Pablo L. Sidar,AZG
+Michoacán,Lázaro Cárdenas,Aeropuerto Nacional de Lázaro Cárdenas,LZC
+Michoacán,Morelia,Aeropuerto Internacional de Morelia,MLM
+Michoacán,Uruapan,Aeropuerto Internacional de Uruapan,UPN
+Michoacán,Zamora,Aeropuerto Nacional de Zamora,ZMM
+Morelos,Cuernavaca,Aeropuerto Internacional de Cuernavaca,CVJ
+Nayarit,Tepic,Aeropuerto Internacional Amado Nervo,TNY
+Nayarit,Tepic,Aeropuerto Nacional de Tepic,TPQ
+Nuevo León,Monterrey,Aeropuerto Internacional ‘Del Norte’ Monterrey,—
+Nuevo León,Monterrey,Aeropuerto ‘Mariano Escobedo’ Monterrey,MTY
+Nuevo León,Monterrey,Aeropuerto Internacional del Norte,NTR
+Oaxaca,Huatulco,Aeropuerto Internacional de Huatulco,HUX
+Oaxaca,Ixtepec,Base Aérea No. 2  Ciudad Ixtepec,IZT
+Oaxaca,Oaxaca,Aeropuerto Internacional de Oaxaca,OAX
+Oaxaca,Puerto Escondido,Aeropuerto Internacional de Puerto Escondido,PXM
+Oaxaca,Salina Cruz,Estación Aeronaval de Salina Cruz,SCX
+Puebla,Tehuacán,Aeropuerto Nacional de Tehuacán,TCN
+Querétaro,Querétaro,Aeropuerto Internacional de Querétaro,QRO
+Quintana Roo,Chetumal,Aeropuerto Internacional de Chetumal,CTM
+Quintana Roo,Cancún,Aeropuerto Internacional de Cancún,CUN
+Quintana Roo,Cozumel,Aeropuerto Internacional de Cozumel,CZM
+Quintana Roo,Isla Mujeres,Aeropuerto Nacional de Isla Mujeres,ISJ
+Quintana Roo,Tulum,Estación Aeronaval de Tulum,TUY
+San Luis Potosí,San Luis Potosí,Aeropuerto Internacional de San Luis Potosí,SLP
+San Luis Potosí,Tamuín,Aeropuerto Nacional de Tamuín,TCN
+San Luis Potosí,Tamuín,Aeropuerto Nacional de Tamuín,TSL
+Sonora,Cananea,Aeropuerto Nacional de Cananea,CNA
+Sinaloa,Culiacán,Aeropuerto Internacional de Culiacán,CUL
+Sinaloa,Los Mochis,Aeropuerto Internacional de Los Mochis,LMM
+Sinaloa,Mazatlán,Aeropuerto Internacional de Mazatlán,MZT
+Sonora,Navojoa,Aeropuerto Nacional de Navojoa,NAV
+Sonora,Puerto Peñasco,Aeropuerto Internacional de Mar de Cortés,PPE
+Sinaloa,Teacapán,Aeropuerto Nacional de Escuinapa,TCP
+Sonora,San Luis Río Colorado,Aeropuerto Internacional de San Luis Río Colorado,UAC
+Sonora,Álamos,Aeropuerto Nacional de Álamos,XAL
+Sonora, Ciudad Obregón,Aeropuerto Internacional de  Ciudad Obregón,CEN
+Sonora,Guaymas,Aeropuerto Internacional de Guaymas,GYM
+Sonora,Hermosillo,Aeropuerto Internacional de Hermosillo,HMO
+Sonora,Nogales,Aeropuerto Internacional de Nogales,NOG
+Tabasco, Ciudad Pemex,Base Aérea No. 16  Ciudad Pemex,CPX
+Tabasco,Villahermosa,Aeropuerto Internacional de Villahermosa,VSA
+Tamaulipas, Ciudad Victoria,Aeropuerto Internacional de  Ciudad Victoria,CVM
+Tamaulipas,Matamoros,Aeropuerto Internacional de Matamoros,MAM
+Tamaulipas, Ciudad Mante,Aeropuerto Nacional de  Ciudad Mante,MMC
+Tamaulipas,Nuevo Laredo,Aeropuerto Internacional de Nuevo Laredo,NLD
+Tamaulipas,Reynosa,Aeropuerto Internacional de Reynosa,REX
+Tamaulipas,Tampico,Aeropuerto Internacional de Tampico,TAM
+Veracruz,Xalapa,Aeropuerto Nacional El Lencero,JAL
+Veracruz,Minatitlán,Aeropuerto Nacional de Minatitlán,MTT
+Veracruz,Poza Rica,Aeropuerto Nacional de Poza Rica,PAZ
+Veracruz,Veracruz,Aeropuerto Internacional de Veracruz,VER
+Yucatán,Chichén Itzá,Aeropuerto Internacional de Kaua,CZA
+Yucatán,Mérida,Aeropuerto Internacional de Mérida,MID
+Yucatán,Tizimín,Aeropuerto Nacional Cupul,TZM
+Zacatecas,Zacatecas,Aeropuerto Internacional de Zacatecas,ZCL
