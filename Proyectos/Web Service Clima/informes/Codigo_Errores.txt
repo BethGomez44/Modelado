@@ -1,0 +1,18 @@
+Cualquier error contacte a soporte:
+
+fcoemmdmm@ciencias.unam.mx
+liz_gomez04@ciencias.unam.mx
+
+Codigos de gravedad:
+
+F - Fatal: El programa no realizara ningun proceso hasta que el error sea reparado. 
+	   Contactar a soporte
+
+
+
+
+
+Codigo de error             Descripcion:					Gravedad
+
+E-LEC001		Se modificaron, borraron o dañaron los archivos 	   F
+			de consulta acerca de las claves IATA nacionales.
