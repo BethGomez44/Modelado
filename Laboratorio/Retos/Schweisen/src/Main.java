@@ -1,17 +1,24 @@
-import java.util.Scanner;
+import java.io.DataInputStream;
+import java.io.FileInputStream;
 import java.io.IOException;
-
+import java.io.InputStreamReader;
+import java.util.Scanner;
+import java.util.StringTokenizer;
+/**
+ * Problema 2: Schweisen URI online 1112 con Java
+ * @author Gómez de la Torre Heidi Lizbeth
+ * @version 29/10/2020
+ */
 public class Main {
 
     static int arbolFenwick[][];
 
     public static void main(String[] args) throws IOException {
 
-        Scanner lector;
+        Reader lector = new Reader();
         int X = 1, Y = 1, P = 1, Q = 0;
-
-        lector = new Scanner(System.in);
-
+        String[] cad;
+        
         X = lector.nextInt();
         Y = lector.nextInt();
         P = lector.nextInt();
@@ -22,17 +29,17 @@ public class Main {
             if (X <= 1000 && Y <= 1000 && P <= 10 && Q <= 10000) {
                 int k = 0;
                 while (k < Q) {
-                    char id = lector.next().charAt(0);
-                    if (id == 'A') {
-                        int N = lector.nextInt();
-                        int coorX = lector.nextInt();
-                        int coorY = lector.nextInt();
+                    cad = lector.readLine().trim().split(" ");
+                    if (cad.length < 5) {
+                        int N = Integer.parseInt(cad[1]);
+                        int coorX = Integer.parseInt(cad[2]);
+                        int coorY = Integer.parseInt(cad[3]);
                         actualizar(N, coorX + 1, coorY + 1);
-                    } else if (id == 'P') {
-                        int coorX = lector.nextInt();
-                        int coorY = lector.nextInt();
-                        int coorZ = lector.nextInt();
-                        int coorW = lector.nextInt();
+                    } else {
+                        int coorX = Integer.parseInt(cad[1]);
+                        int coorY = Integer.parseInt(cad[2]);
+                        int coorZ = Integer.parseInt(cad[3]);
+                        int coorW = Integer.parseInt(cad[4]);
                         System.out.print(respuesta(coorX + 1, coorY + 1, coorZ + 1, coorW + 1, P) + "\n");
                     }
                     k++;
@@ -45,7 +52,7 @@ public class Main {
         }
 
     }
-
+    
     static int menorBit(int i) {
         return (i & -i);
     }
@@ -82,6 +89,115 @@ public class Main {
         }
         int resp = suma(x2, y2) - suma(x1 - 1, y2) - suma(x2, y1 - 1) + suma(x1 - 1, y1 - 1);
         return resp * P;
+    }
+
+    /**
+     * I/O Implementada por un usuario, encontrada en un artículo de internet.
+     * Créditos a su respectivo autor.
+     */
+    static class Reader {
+        final private int BUFFER_SIZE = 1 << 16;
+        private DataInputStream din;
+        private byte[] buffer;
+        private int bufferPointer, bytesRead;
+
+        public Reader() {
+            din = new DataInputStream(System.in);
+            buffer = new byte[BUFFER_SIZE];
+            bufferPointer = bytesRead = 0;
+        }
+
+        public Reader(String file_name) throws IOException {
+            din = new DataInputStream(new FileInputStream(file_name));
+            buffer = new byte[BUFFER_SIZE];
+            bufferPointer = bytesRead = 0;
+        }
+
+        public String readLine() throws IOException {
+            byte[] buf = new byte[64]; // line length
+            int cnt = 0, c;
+            while ((c = read()) != -1) {
+                if (c == '\n')
+                    break;
+                buf[cnt++] = (byte) c;
+            }
+            return new String(buf, 0, cnt);
+        }
+
+        public int nextInt() throws IOException {
+            int ret = 0;
+            byte c = read();
+            while (c <= ' ')
+                c = read();
+            boolean neg = (c == '-');
+            if (neg)
+                c = read();
+            do {
+                ret = ret * 10 + c - '0';
+            } while ((c = read()) >= '0' && c <= '9');
+
+            if (neg)
+                return -ret;
+            return ret;
+        }
+
+        public long nextLong() throws IOException {
+            long ret = 0;
+            byte c = read();
+            while (c <= ' ')
+                c = read();
+            boolean neg = (c == '-');
+            if (neg)
+                c = read();
+            do {
+                ret = ret * 10 + c - '0';
+            } while ((c = read()) >= '0' && c <= '9');
+            if (neg)
+                return -ret;
+            return ret;
+        }
+
+        public double nextDouble() throws IOException {
+            double ret = 0, div = 1;
+            byte c = read();
+            while (c <= ' ')
+                c = read();
+            boolean neg = (c == '-');
+            if (neg)
+                c = read();
+
+            do {
+                ret = ret * 10 + c - '0';
+            } while ((c = read()) >= '0' && c <= '9');
+
+            if (c == '.') {
+                while ((c = read()) >= '0' && c <= '9') {
+                    ret += (c - '0') / (div *= 10);
+                }
+            }
+
+            if (neg)
+                return -ret;
+            return ret;
+        }
+
+        private void fillBuffer() throws IOException {
+            bytesRead = din.read(buffer, bufferPointer = 0, BUFFER_SIZE);
+            if (bytesRead == -1)
+                buffer[0] = -1;
+        }
+
+        private byte read() throws IOException {
+            if (bufferPointer == bytesRead)
+                fillBuffer();
+            return buffer[bufferPointer++];
+        }
+
+        public void close() throws IOException {
+            if (din == null)
+                return;
+            din.close();
+        }
     }
 
 }

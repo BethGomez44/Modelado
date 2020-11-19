@@ -44,7 +44,7 @@ public class Canica {
     /**
      * Método para comparar un objeto Canica con otro.
      */
-    public double comparteTo(Canica o) {
+    public boolean comparteTo(Canica o) {
 
         Canica aux = o;
         if (this.numeroCan == aux.numeroCan) {
