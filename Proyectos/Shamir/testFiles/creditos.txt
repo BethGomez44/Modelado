@@ -1,0 +1,11 @@
+Los archivos aqui usados para realizar las pruebas unitarias no nos pertenecen y no es nuestro proposito difundirlos sin  el consentimiento de los creadores
+
+Reconocemos su pertenencia a:
+
+muestra1: https://www.pinterest.com/pin/690387817848680771/
+muestra2: https://www.bensound.com/
+muestra3: https://www.mundoprimaria.com/cuentos-infantiles-cortos/el-rey-sabio
+muestra4: http://www.economia.unam.mx/deschimex/cechimex/chmxExtras/documentos/propuestasbecas/2011/albertoolascoaga/AOlascoagaAnexos.pdf
+muestra5: https://giphy.com/gifs/panda-cowboy-HDR31jsQUPqQo
+
+Muchas gracias por ayudarnos a mejorar nuestro programa.

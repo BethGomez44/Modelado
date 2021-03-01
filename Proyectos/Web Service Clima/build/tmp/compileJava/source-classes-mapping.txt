@@ -1,0 +1,8 @@
+main/lib/Conexion.java
+ main.lib.Conexion
+main/lib/Lector.java
+ main.lib.Lector
+main/app/Main.java
+ main.app.Main
+main/lib/Lugar.java
+ main.lib.Lugar
